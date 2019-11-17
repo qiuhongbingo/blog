@@ -74,7 +74,7 @@ npm package 和 git submodule 是我们列出来仅有的两种方案，考虑�
 git submodule add git@gitee.com:test/module.git uniapp/A/src/modules
 ```
 
-这样，在我们主项目就引入了整个可复用的模块，以 uinapp 为例长这样：
+这样，在我们主项目就引入了整个可复用的模块，以 uniapp 为例长这样：
 
 ![](https://raw.githubusercontent.com/qhbhq/image/master/20191117181505.png)
 
