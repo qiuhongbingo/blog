@@ -86,13 +86,13 @@ git submodule add git@gitee.com:test/module.git uniapp/A/src/modules
 
 ### 如何使用模块
 
-例如我的 A 小程序有个 /pages/ex/test/index/index 页面，那么这个页面的功能就是一个放在 module 项目的页面模块，而对于 A 小程序来说，只需要通过 vue component 的方式引入。
+例如我的 A 小程序有个 /pages/ex/test/index/index 页面，那么这个页面的功能就是一个放在 module 项目的页面模块，而对于 A 小程序来说，只需要通过 vue component 的方式引入
 
 ![](https://raw.githubusercontent.com/qhbhq/image/master/20191117182253.png)
 
-这样的好处是 B 小程序也可以用同样的方式使用这个页面模块。
+这样的好处是 B 小程序也可以用同样的方式使用这个页面模块
 
-简而言之就是，我们大部分的业务代码都放在模块项目各自的业务模块里，主项目只负责页面路径、数据状态的管理。
+简而言之就是，我们大部分的业务代码都放在模块项目各自的业务模块里，主项目只负责页面路径、数据状态的管理
 
 ---
 
@@ -114,7 +114,7 @@ git push orgin master
 
 ### 如何更新模块
 
-当自己要使用其他人开发的模块时，可以使用 foreach 循环指令，更新 master 分支
+当自己要使用其他人开发的模块时，可以使用 foreach 循环指令，更新 master 分支，也可以单独 cd 到模块目录执行 git pull
 
 ```bash
 git submodule foreach 'git checkout master;git pull'
